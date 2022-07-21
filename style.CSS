@@ -1,0 +1,76 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+
+body {
+  background-color: #ADD2C2;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #2A2D43;
+  
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+
+
+header {
+  background-color: #ADD2C2;
+  color: #2A2D43;
+  text-align: center;
+}
+
+h1 {
+  color: #2A2D43;
+  font-size: 2.2em;
+  paddong-top:1em;
+  padding-bottom: 1em;
+}
+
+
+.fresh {
+color: #2A2D43;
+  
+}
+
+#kitten {
+  margin-top: 2em; 
+}
+/* STYLE IMAGES */
+img {
+  border: 5px solid #8AA99C;
+  max-width: 50%;
+  max-height: 250px;
+  margin-bottom: 2em;
+}
+/* STYLE NAV BAR */
+
+ul {
+  list-style-position: none;
+  background-color: white; 
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #2A2D43;
+  font: 1.3em;
+  padding: 1em;
+}
+
+li a: hover {
+  background-color: #2A2D43;
+}
